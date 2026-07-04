@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;600;700&display=swap');
+
+body {
+    overflow-x: hidden;
+    font-family: "Kanit", sans-serif;
+    background-color: rgb(150, 227, 255);
+    scroll-behavior: smooth;
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.logo img {
+    height: 70px;
+}
+
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #f0a500;
+}
+
+#imagevic {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 15px;
+}
+
+.head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 50px 20px;
+}
+
+#Bien {
+    max-width: 550px;
+}
+
+.btn-inscription,
+#but {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(10, 149, 255);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-decoration: none;
+    font-family: inherit;
+}
+
+.btn-inscription:hover,
+#but:hover {
+    color: #004582;
+    background-color: white;
+}
+
+#join {
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+#histo {
+    display: grid;
+    margin: 25px;
+    place-items: center;
+    text-align: center;
+    min-height: 60vh;
+    padding: 40px 20px;
+}
+
+#histo img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+#textfaq {
+    padding: 35px 20px;
+    margin: auto;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    max-width: 900px;
+}
+
+#textfaq img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.joinp {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 40px 20px;
+}
+
+#joinpara {
+    place-items: center;
+    text-align: center;
+    max-width: 600px;
+    padding-bottom: 50px;
+}
+
+footer {
+    background-color: #63a2aa;
+    width: 100%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+footer h2 {
+    margin-top: 0;
+    color: white;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer li {
+    margin: 8px 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .nav-links li {
+        margin-left: 10px;
+    }
+
+    .nav-links a {
+        font-size: 14px;
+    }
+
+    .head {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #Bien {
+        padding-left: 0;
+    }
+}
